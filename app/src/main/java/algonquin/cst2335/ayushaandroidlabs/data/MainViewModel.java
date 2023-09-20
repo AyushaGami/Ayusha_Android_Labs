@@ -1,4 +1,8 @@
 package algonquin.cst2335.ayushaandroidlabs.data;
 
-public class MainViewModel {
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
+
+public class MainViewModel extends ViewModel {
+    public MutableLiveData<String> userString =new MutableLiveData("");
 }
