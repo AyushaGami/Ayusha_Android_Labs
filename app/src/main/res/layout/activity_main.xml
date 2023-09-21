@@ -10,7 +10,6 @@
 
     <TextView
         android:id="@+id/myTextView"
-        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_message"
@@ -27,6 +26,40 @@
         android:id="@+id/myEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/editMessage"
+        android:hint="Hello There"
         android:textSize="20dp" />
+    
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want to come for shopping?"
+        android:id="@+id/myCheckbox" />
+
+    <Switch
+
+        android:id="@+id/mySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Want to come for shopping?" />
+
+    <RadioButton
+
+        android:id="@+id/myRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want to come for shopping?" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Algonquin"
+        android:id="@+id/myImage"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Algonquin"
+        android:id="@+id/myImageButton"
+        android:src="@drawable/logo" />
 </LinearLayout>
