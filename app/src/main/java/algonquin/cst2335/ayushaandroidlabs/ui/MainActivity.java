@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity
             Model.isSelected.postValue(isChecked);
             showToast("CheckBox clicked");
         });
-        variableBinding.myCheckbox.setOnCheckedChangeListener((btn, isChecked) ->
+        variableBinding.mySwitch.setOnCheckedChangeListener((btn, isChecked) ->
         {
             Model.isSelected.postValue(isChecked);
             showToast("Switch clicked");
         });
-        variableBinding.myCheckbox.setOnCheckedChangeListener((btn, isChecked) ->
+        variableBinding.myRadioButton.setOnCheckedChangeListener((btn, isChecked) ->
         {
             Model.isSelected.postValue(isChecked);
             showToast("RadioButton clicked");
