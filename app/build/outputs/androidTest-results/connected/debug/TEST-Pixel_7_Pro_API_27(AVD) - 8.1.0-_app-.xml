@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="algonquin.cst2335.ayushaandroidlabs.ExampleInstrumentedTest" tests="7" failures="0" errors="0" skipped="0" time="24.663" timestamp="2023-10-19T20:41:59" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_7_Pro_API_27(AVD) - 8.1.0" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="useAppContext" classname="algonquin.cst2335.ayushaandroidlabs.ExampleInstrumentedTest" time="0.058" />
+  <testcase name="testComplexPassword" classname="algonquin.cst2335.ayushaandroidlabs.MainActivityTest" time="4.044" />
+  <testcase name="mainActivityTest" classname="algonquin.cst2335.ayushaandroidlabs.MainActivityTest" time="2.736" />
+  <testcase name="testMissingDigit" classname="algonquin.cst2335.ayushaandroidlabs.MainActivityTest" time="3.799" />
+  <testcase name="testMissingSpecialCharacter" classname="algonquin.cst2335.ayushaandroidlabs.MainActivityTest" time="3.407" />
+  <testcase name="testMissingLowerCase" classname="algonquin.cst2335.ayushaandroidlabs.MainActivityTest" time="3.33" />
+  <testcase name="testMissingUpperCase" classname="algonquin.cst2335.ayushaandroidlabs.MainActivityTest" time="3.299" />
+</testsuite>

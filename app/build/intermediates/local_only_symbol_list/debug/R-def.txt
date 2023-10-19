@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color my_primary
+color my_secondary
+color my_statusbar
+color my_text
+color white
+drawable app_icon
+drawable ic_launcher_background
+id loginButton
+id loginText
+id textView
+layout activity_main
+string app_name
+string button_message
+string hello_message
+style Base.Theme.AyushaAndroidLabs
+xml backup_rules
+xml data_extraction_rules

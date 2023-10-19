@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "algonquin.cst2335.ayushaandroidlabs.app-merged_res-28:/xml_backup_rules.xml.flat",
+        "source": "algonquin.cst2335.ayushaandroidlabs.app-main-30:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.ayushaandroidlabs.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "algonquin.cst2335.ayushaandroidlabs.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.ayushaandroidlabs.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "algonquin.cst2335.ayushaandroidlabs.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.ayushaandroidlabs.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
+        "source": "algonquin.cst2335.ayushaandroidlabs.app-main-30:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.ayushaandroidlabs.app-merged_res-28:/drawable_app_icon.png.flat",
+        "source": "algonquin.cst2335.ayushaandroidlabs.app-main-30:/drawable/app_icon.png"
+    }
+]

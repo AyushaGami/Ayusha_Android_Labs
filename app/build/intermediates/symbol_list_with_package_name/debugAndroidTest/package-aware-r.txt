@@ -1,0 +1,3 @@
+algonquin.cst2335.ayushaandroidlabs.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

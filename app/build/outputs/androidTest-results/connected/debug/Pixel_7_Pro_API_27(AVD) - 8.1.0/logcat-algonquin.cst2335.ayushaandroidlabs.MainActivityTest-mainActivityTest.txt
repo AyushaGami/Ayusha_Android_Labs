@@ -1,0 +1,216 @@
+10-19 16:41:38.347 18898 18950 I TestRunner: started: mainActivityTest(algonquin.cst2335.ayushaandroidlabs.MainActivityTest)
+10-19 16:41:38.357  1441  1519 D         : HostConnection::get() New Host Connection established 0xe79239c0, tid 1519
+10-19 16:41:38.390  1440  1440 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:38.396 19008 19037 D         : HostConnection::get() New Host Connection established 0xdf3974c0, tid 19037
+10-19 16:41:38.405  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:38.422 19008 19037 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+10-19 16:41:38.423 19008 19037 I OpenGLRenderer: Initialized EGL, version 1.4
+10-19 16:41:38.424 19008 19037 D OpenGLRenderer: Swap behavior 1
+10-19 16:41:38.427 19008 19037 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-19 16:41:38.427 19008 19037 D OpenGLRenderer: Swap behavior 0
+10-19 16:41:38.433 18898 18950 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-19 16:41:38.463 19008 19037 D EGL_emulation: eglCreateContext: 0xdf3e5240: maj 2 min 0 rcv 2
+10-19 16:41:38.465  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:38.502 19008 19037 D EGL_emulation: eglMakeCurrent: 0xdf3e5240: ver 2 0 (tinfo 0xde141710)
+10-19 16:41:38.513  1450  2050 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+10-19 16:41:38.571  1716  1771 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.573  1716  1771 D         : HostConnection::get() New Host Connection established 0xcb052240, tid 1771
+10-19 16:41:38.583  1716  1771 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.585 19008 19037 D EGL_emulation: eglMakeCurrent: 0xdf3e5240: ver 2 0 (tinfo 0xde141710)
+10-19 16:41:38.612  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:38.612 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: PRE_ON_CREATE
+10-19 16:41:38.615 18898 18898 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-19 16:41:38.672  1716  1771 D         : HostConnection::get() New Host Connection established 0xcb052240, tid 1771
+10-19 16:41:38.707  1845  1869 I zygote  : NativeAlloc concurrent copying GC freed 2065(136KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/9MB, paused 6.188ms total 87.153ms
+10-19 16:41:38.710  1845  1866 D         : HostConnection::get() New Host Connection established 0xe0ceaac0, tid 1866
+10-19 16:41:38.711  1845  1866 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.711  1845  1866 D         : HostConnection::get() New Host Connection established 0xe0ceaac0, tid 1866
+10-19 16:41:38.712  1845  1866 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.714  1845  1867 D         : HostConnection::get() New Host Connection established 0xcd3c3e80, tid 1867
+10-19 16:41:38.716  1845  1867 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.717  1845  1867 D         : HostConnection::get() New Host Connection established 0xcd3c3e80, tid 1867
+10-19 16:41:38.729  1845  1867 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.776 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: CREATED
+10-19 16:41:38.777 18898 18898 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73
+10-19 16:41:38.779 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: STARTED
+10-19 16:41:38.780 18898 18898 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73
+10-19 16:41:38.785 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: RESUMED
+10-19 16:41:38.785 18898 18898 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73
+10-19 16:41:38.853  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:38.856  1440  1501 I chatty  : uid=1000(system) HwBinder:1440_2 identical 1 line
+10-19 16:41:38.861  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:38.904  1716  1727 I zygote  : NativeAlloc concurrent copying GC freed 12207(675KB) AllocSpace objects, 5(164KB) LOS objects, 35% free, 10MB/16MB, paused 1.620ms total 257.328ms
+10-19 16:41:38.956 19008 19037 D EGL_emulation: eglMakeCurrent: 0xdf3e5240: ver 2 0 (tinfo 0xde141710)
+10-19 16:41:38.965  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a400, tid 1484
+10-19 16:41:38.966  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.967  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a400, tid 1484
+10-19 16:41:38.968  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.969  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a400, tid 1484
+10-19 16:41:38.971  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:38.972  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a400, tid 1484
+10-19 16:41:38.973  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:39.080 18898 18969 D EGL_emulation: eglMakeCurrent: 0xe0c85480: ver 2 0 (tinfo 0xe0c83430)
+10-19 16:41:39.123  1716  1748 I ActivityManager: Displayed algonquin.cst2335.ayushaandroidlabs/.MainActivity: +578ms (total +1s456ms)
+10-19 16:41:39.164 18898 18898 V View    : dispatchProvideAutofillStructure(): not laid out, ignoring 0 children of 1073741831
+10-19 16:41:39.185  1716  2632 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+10-19 16:41:39.185  1716  2632 W Binder  : java.lang.Throwable
+10-19 16:41:39.185  1716  2632 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2110)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at com.android.server.autofill.Session$1.send(Session.java:227)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13272)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2472)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+10-19 16:41:39.185  1716  2632 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+10-19 16:41:39.188 18898 18898 I AssistStructure: Flattened final assist data: 2476 bytes, containing 1 windows, 9 views
+10-19 16:41:39.222 18898 18898 I ViewInteraction: Performing 'replace text(12345)' action on view view.getId() is <2131230958/algonquin.cst2335.ayushaandroidlabs:id/loginText>
+10-19 16:41:39.234  1716  2091 I AssistStructure: Flattened final assist data: 2300 bytes, containing 1 windows, 9 views
+10-19 16:41:39.242  2186  2186 W ktk     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+10-19 16:41:39.305 18898 18898 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131230958/algonquin.cst2335.ayushaandroidlabs:id/loginText>
+10-19 16:41:39.307 18898 18898 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@72ef387]
+10-19 16:41:39.309 18898 18898 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+10-19 16:41:39.309 18898 18898 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@72ef387]
+10-19 16:41:39.318  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:39.319  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:39.319  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:39.320  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:39.321  1716  1771 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:39.324  1716  1771 D         : HostConnection::get() New Host Connection established 0xcb052240, tid 1771
+10-19 16:41:39.328  1716  1771 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:39.339 18898 18898 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230957/algonquin.cst2335.ayushaandroidlabs:id/loginButton>
+10-19 16:41:39.349 18898 18903 I zygote  : Do full code cache collection, code=121KB, data=112KB
+10-19 16:41:39.350 18898 18903 I zygote  : After code cache collection, code=116KB, data=61KB
+10-19 16:41:39.468  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 573440
+10-19 16:41:39.475  1440  1501 I chatty  : uid=1000(system) HwBinder:1440_2 identical 1 line
+10-19 16:41:39.478  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 573440
+10-19 16:41:39.499 18898 18969 D EGL_emulation: eglMakeCurrent: 0xe0c85480: ver 2 0 (tinfo 0xe0c83430)
+10-19 16:41:39.523 18898 18969 D EGL_emulation: eglMakeCurrent: 0xe0c85480: ver 2 0 (tinfo 0xe0c83430)
+10-19 16:41:39.821 18898 18903 I zygote  : Do partial code cache collection, code=116KB, data=77KB
+10-19 16:41:39.822 18898 18903 I zygote  : After code cache collection, code=116KB, data=77KB
+10-19 16:41:39.822 18898 18903 I zygote  : Increasing code cache capacity to 512KB
+10-19 16:41:39.830 18898 18898 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You shall not pass!"}' assertion on view view.getId() is <2131231166/algonquin.cst2335.ayushaandroidlabs:id/textView>
+10-19 16:41:39.857 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: PAUSED
+10-19 16:41:39.858 18898 18898 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73
+10-19 16:41:39.883  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:39.895  1716  1771 D         : HostConnection::get() New Host Connection established 0xcb052500, tid 1771
+10-19 16:41:39.965  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:39.979  1440  1501 I chatty  : uid=1000(system) HwBinder:1440_2 identical 2 lines
+10-19 16:41:40.022  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:40.054  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a740, tid 1484
+10-19 16:41:40.057 19008 19037 D EGL_emulation: eglMakeCurrent: 0xdf3e5240: ver 2 0 (tinfo 0xde141710)
+10-19 16:41:40.070 18898 18969 D EGL_emulation: eglMakeCurrent: 0xe0c85480: ver 2 0 (tinfo 0xe0c83430)
+10-19 16:41:40.072  1450  1450 E EGL_emulation: tid 1450: eglCreateSyncKHR(2017): error 0x3004 (EGL_BAD_ATTRIBUTE)
+10-19 16:41:40.076  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.077  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a740, tid 1484
+10-19 16:41:40.078  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.097 18898 18969 D OpenGLRenderer: endAllActiveAnimators on 0xcec73c80 (RippleDrawable) with handle 0xe0c83cb0
+10-19 16:41:40.118  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.119  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.120  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.121  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.122  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.123  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.124  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.124  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.125  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.126  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.126  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.129  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.291  8977  9008 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+10-19 16:41:40.291  8977  9008 I Dialer  : DynamicShortcuts.refresh - enter
+10-19 16:41:40.293  1845  1869 I zygote  : NativeAlloc concurrent copying GC freed 1909(168KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 4MB/9MB, paused 7.376ms total 60.186ms
+10-19 16:41:40.306  8977  8977 I Dialer  : CallLogFragment.onStart - enter
+10-19 16:41:40.311  8977  8977 I Dialer  : CallLogFragment.onStart - enter
+10-19 16:41:40.313  8977  8977 I Dialer  : DialpadFragment.onStart - first launch: false
+10-19 16:41:40.326  1845  1866 D         : HostConnection::get() New Host Connection established 0xe0c9cd40, tid 1866
+10-19 16:41:40.331  1845  1866 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.333  1845  1866 D         : HostConnection::get() New Host Connection established 0xe0c9cd40, tid 1866
+10-19 16:41:40.335  1845  1866 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.341  8977  8977 I AudioTrack: AUDIO_OUTPUT_FLAG_FAST successful; frameCount 1440 -> 1440
+10-19 16:41:40.341  8977  8977 D AudioTrack: Client defaulted notificationFrames to 720 for frameCount 1440
+10-19 16:41:40.341  1716  1771 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.342  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.345  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.345  1716  1771 D         : HostConnection::get() New Host Connection established 0xcb052500, tid 1771
+10-19 16:41:40.346  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.349  1716  1771 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.358  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.380  8977  8977 I Dialer  : SmartDialSearchFragment.onStart - registering smart dial update receiver
+10-19 16:41:40.382  8977  8977 I Dialer  : DialtactsActivity.onResume - enter
+10-19 16:41:40.399  8977 19070 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - enter
+10-19 16:41:40.439  8977  8977 I Dialer  : CallLogFragment.onResume - enter
+10-19 16:41:40.442  8977  8977 I Dialer  : CallLogFragment.onResume - enter
+10-19 16:41:40.449  8977  8977 I Dialer  : DialpadFragment.configureScreenFromIntent - enter
+10-19 16:41:40.450  8977  8977 I Dialer  : DialpadFragment.configureScreenFromIntent - dial intent
+10-19 16:41:40.450  8977  8977 I Dialer  : DialpadFragment.configureScreenFromIntent - action: android.intent.action.DIAL
+10-19 16:41:40.454  8977  8977 I Dialer  : DialpadFragment.configureScreenFromIntent - needToShowDialpadChooser? false
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: Error while reading from SharedPreferences
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: java.lang.SecurityException: MODE_WORLD_READABLE no longer supported
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at android.app.ContextImpl.checkMode(ContextImpl.java:2420)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:382)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:372)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at ddr.a(Unknown Source:12)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at dfc.e(Unknown Source:22)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at dfc.d(Unknown Source:16)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at dfc.b(Unknown Source:4)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at dei.run(Unknown Source:12)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at java.lang.Thread.run(Thread.java:764)
+10-19 16:41:40.454  8977 17341 W AdvertisingIdClient: 	at dhp$c.run(Unknown Source:5)
+10-19 16:41:40.454  8977  8977 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+10-19 16:41:40.454  8977  8977 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+10-19 16:41:40.461  8977  8977 I Dialer  : DialpadFragment.onResume - phone not in use
+10-19 16:41:40.461  8977  8977 I Dialer  : DialpadFragment.showDialpadChooser - Displaying normal Dialer UI.
+10-19 16:41:40.461  8977  8977 I Dialer  : DialpadFragment.showDialpadChooser - mDialpadView not null
+10-19 16:41:40.466  8977  8977 I Dialer  : EnrichedCallManagerImpl.registerCapabilitiesListener - listener: anu{ef915b2 #3 id=0x7f0d0187 smartdial}
+10-19 16:41:40.498  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:40.502  1440  1501 I chatty  : uid=1000(system) HwBinder:1440_2 identical 1 line
+10-19 16:41:40.509  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:40.732  8977  9313 D EGL_emulation: eglMakeCurrent: 0xe0c86380: ver 2 0 (tinfo 0xcc4f40a0)
+10-19 16:41:40.752  8977 19070 I Dialer  : DialerDatabaseHelper.updateSmartDialDatabase - broadcasting smart dial update
+10-19 16:41:40.790  8977  8988 I zygote  : Background concurrent copying GC freed 15341(987KB) AllocSpace objects, 2(104KB) LOS objects, 50% free, 4MB/9MB, paused 2.582ms total 348.147ms
+10-19 16:41:40.844  1440  1501 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 17973248
+10-19 16:41:40.850  1716  1771 D         : HostConnection::get() New Host Connection established 0xca3e1240, tid 1771
+10-19 16:41:40.855 19008 19037 D EGL_emulation: eglMakeCurrent: 0xdf3e5240: ver 2 0 (tinfo 0xde141710)
+10-19 16:41:40.865  1450  1450 E EGL_emulation: tid 1450: eglCreateSyncKHR(2017): error 0x3004 (EGL_BAD_ATTRIBUTE)
+10-19 16:41:40.866  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a580, tid 1484
+10-19 16:41:40.868  1450  2050 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.868  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.870  1450  2050 D         : HostConnection::get() New Host Connection established 0xedb21680, tid 2050
+10-19 16:41:40.870  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a580, tid 1484
+10-19 16:41:40.871  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.872  1450  2050 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.873  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a580, tid 1484
+10-19 16:41:40.873  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.874  1450  1484 D         : HostConnection::get() New Host Connection established 0xee15a580, tid 1484
+10-19 16:41:40.876  1450  1484 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.899  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.900  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.900  1441  1441 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.902  1441  1441 D         : HostConnection::get() New Host Connection established 0xe7923900, tid 1441
+10-19 16:41:40.907  8977  9008 I Dialer  : ShortcutRefresher.Task.doInBackground - enter
+10-19 16:41:40.907  8977  9008 I Dialer  : DynamicShortcuts.refresh - enter
+10-19 16:41:40.920  8977  8977 I Dialer  : SmartDialSearchFragment.onReceive - smart dial update broadcast received
+10-19 16:41:40.975  1845  1867 D         : HostConnection::get() New Host Connection established 0xcce0fcc0, tid 1867
+10-19 16:41:40.976  1845  1867 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.977  1845  1867 D         : HostConnection::get() New Host Connection established 0xcce0fcc0, tid 1867
+10-19 16:41:40.981  1845  1867 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.983  1845  1867 D         : HostConnection::get() New Host Connection established 0xe0c9c680, tid 1867
+10-19 16:41:40.985  1845  1867 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:40.987  1845  1867 D         : HostConnection::get() New Host Connection established 0xe0c9c680, tid 1867
+10-19 16:41:40.987  1845  1867 D gralloc_ranchu: gralloc_unregister_buffer: exiting HostConnection (is buffer-handling thread)
+10-19 16:41:41.048  1716  2748 I OpenGLRenderer: Initialized EGL, version 1.4
+10-19 16:41:41.048  1716  2748 D OpenGLRenderer: Swap behavior 1
+10-19 16:41:41.054  1716  2748 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-19 16:41:41.054  1716  2748 D OpenGLRenderer: Swap behavior 0
+10-19 16:41:41.069  1716  2748 D EGL_emulation: eglCreateContext: 0xe0cda960: maj 2 min 0 rcv 2
+10-19 16:41:41.081 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: STOPPED
+10-19 16:41:41.082 18898 18898 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73
+10-19 16:41:41.077  1716  2748 D EGL_emulation: eglMakeCurrent: 0xe0cda960: ver 2 0 (tinfo 0xc9f7d3f0)
+10-19 16:41:41.086 18898 18898 D LifecycleMonitor: Lifecycle status change: algonquin.cst2335.ayushaandroidlabs.MainActivity@bc6cd73 in: DESTROYED
+10-19 16:41:41.087 18898 18898 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+10-19 16:41:41.088 18898 18950 I TestRunner: finished: mainActivityTest(algonquin.cst2335.ayushaandroidlabs.MainActivityTest)

@@ -1,0 +1,2 @@
+10-19 16:41:34.165 18898 18950 I TestRunner: started: useAppContext(algonquin.cst2335.ayushaandroidlabs.ExampleInstrumentedTest)
+10-19 16:41:34.171 18898 18950 I TestRunner: finished: useAppContext(algonquin.cst2335.ayushaandroidlabs.ExampleInstrumentedTest)

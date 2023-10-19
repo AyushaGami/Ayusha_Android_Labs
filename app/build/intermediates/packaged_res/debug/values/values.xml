@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="my_primary">#8BC34A</color>
+    <color name="my_secondary">#FF6200EE</color>
+    <color name="my_statusbar">#FFC107</color>
+    <color name="my_text">#ED0A0A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Ayusha Android Labs</string>
+    <string name="button_message">I\'m a button</string>
+    <string name="hello_message">Hello world!</string>
+    <style name="Base.Theme.AyushaAndroidLabs" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorSecondary">@color/my_secondary</item>
+        <item name="android:statusBarColor">@color/my_statusbar</item>
+        <item name="android:textColor">@color/my_text</item>
+    </style>
+</resources>
