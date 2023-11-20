@@ -1,5 +1,5 @@
 package algonquin.cst2335.ayushaandroidlabs;
-import android.annotation.SuppressLint;
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
