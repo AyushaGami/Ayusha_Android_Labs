@@ -1,11 +1,31 @@
 package algonquin.cst2335.ayushaandroidlabs;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.ImageView;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.ImageRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.net.URLEncoder;
+
+import algonquin.cst2335.ayushaandroidlabs.databinding.ActivityMainBinding;
 
 /**
  * This is the main activity class for the Android application.
@@ -14,96 +34,92 @@ import android.widget.Toast;
  */
 
 public class MainActivity extends AppCompatActivity {
+    Button btn = null;
+    protected RequestQueue queue = null;
+    protected String cityName = null;
 
-    /** The TextView to display a message. */
-    private TextView theMessage;
-    /** The Button used for login. */
-    private Button loginButton;
-    /** The EditText for entering a password. */
-    private EditText passwordText;
-
-    /**
-     * Called when the activity is first created.
-     * @param savedInstanceState The saved state of the activity.
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        /** Set the content view to the activity_main layout. */
-        setContentView(R.layout.activity_main);
+        btn = binding.loginButton;
+        queue = Volley.newRequestQueue(this);
 
-        /** Initialize UI elements. */
-        theMessage = findViewById(R.id.textView);
-        loginButton = findViewById(R.id.loginButton);
-        passwordText = findViewById(R.id.loginText);
+        btn.setOnClickListener(vw -> {
+            cityName = binding.cityField.getText().toString();
+            String stringURL = "https://api.openweathermap.org/data/2.5/weather?q="
+                    + URLEncoder.encode(cityName)
+                    + "&appid=7e943c97096a9784391a981c4d878b22&units=metric";
 
-        /** Set a click listener for the loginButton. */
-        loginButton.setOnClickListener( click -> {
-            String password = passwordText.getText().toString();
-            if (isComplexEnough(password) == true){
-                theMessage.setText("Your password meets the requirements");
-            } else {
-                theMessage.setText("You shall not pass!");
-            }
+            @SuppressLint({"DefaultLocale", "StringFormatMatches"})
+            JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, stringURL, null,
+                    (response) -> {
+                        try {
+                            JSONObject mainObject = response.getJSONObject("main");
+
+                            JSONArray weatherArray = response.getJSONArray("weather");
+                            JSONObject position = weatherArray.getJSONObject(0);
+
+                            String description = position.getString("description");
+                            String iconName = position.getString("icon");
+
+                            double current = mainObject.getDouble("temp");
+                            double min = mainObject.getDouble("temp_min");
+                            double max = mainObject.getDouble("temp_max");
+                            int humidity = mainObject.getInt("humidity");
+                            String imageUrl = "https://openweathermap.org/img/w/" + iconName + ".png";
+
+                            runOnUiThread(() -> {
+
+                                binding.temp.setText(getString(R.string.temp, current));
+                                binding.temp.setVisibility(View.VISIBLE);
+
+                                binding.min.setText(getString(R.string.min, min));
+                                binding.min.setVisibility(View.VISIBLE);
+
+                                binding.max.setText(getString(R.string.max, max));
+                                binding.max.setVisibility(View.VISIBLE);
+
+                                binding.humidity.setText(getString(R.string.humidity, humidity));
+                                binding.humidity.setVisibility(View.VISIBLE);
+
+                                binding.description.setText(description);
+                                binding.description.setVisibility(View.VISIBLE);
+
+                                ImageRequest imgReq = new ImageRequest(imageUrl, bitmap -> {
+                                    binding.weatherIcon.setImageBitmap(bitmap);
+                                    binding.weatherIcon.setVisibility(View.VISIBLE);
+                                    FileOutputStream fOut;
+                                    try {
+                                        int i = 0;
+                                        fOut = openFileOutput(iconName + ".png", Context.MODE_PRIVATE);
+                                        bitmap.compress(Bitmap.CompressFormat.PNG, 100, fOut);
+                                        fOut.flush();
+                                        fOut.close();
+                                    } catch (FileNotFoundException e) {
+                                        e.printStackTrace();
+
+                                    } catch (IOException e) {
+                                        throw new RuntimeException(e);
+                                    }
+                                }, 1024, 1024, ImageView.ScaleType.CENTER, null,
+                                        (error) -> {
+                                            int j = 0;
+                                        });
+
+                                queue.add(imgReq);
+
+                            });
+                        } catch (JSONException ex) {
+                            ex.printStackTrace();
+                        }
+                    },
+                    (error) -> {
+                        int i = 0;
+                    });
+            queue.add(request);
         });
-    }
-
-    /**
-     * Check if a given text is complex enough by having both upper and lower case characters.
-     * @param text The input text to check.
-     * @return True if the text is complex enough, false otherwise.
-     */
-    boolean isComplexEnough(String text){
-        boolean result = false;
-        boolean foundUpperCase= false, foundLowerCase =false, foundNumber =false, foundSpecial = false;
-        for(int i = 0; i < text.length(); i++)
-        {
-            char c = text.charAt(i);
-            if(Character.isUpperCase(c))
-                foundUpperCase = true;
-            else if(Character.isLowerCase(c))
-                foundLowerCase = true;
-            else if (Character.isDigit(c))
-                foundNumber = true;
-             else
-                foundSpecial = true;
-        }
-        if (!foundUpperCase) {
-            Toast.makeText(this, "No uppercase character found", Toast.LENGTH_SHORT).show();// Say that they are missing an upper case letter;
-            return false;
-        } else if (!foundLowerCase){
-            Toast.makeText(this, "No lowercase character found", Toast.LENGTH_SHORT).show();// Say that they are missing a lower case letter;
-            return false;
-        }else if (!foundNumber) {
-            Toast.makeText(this, "No number found", Toast.LENGTH_SHORT).show(); // Say that they are missing a lower case letter;
-            return false;
-        }else if (!foundSpecial) {
-            Toast.makeText(this, "No special character found", Toast.LENGTH_SHORT).show(); // Say that they are missing a lower case letter;
-            return false;
-        }else{
-            return true;
-        }
-    }
-    /** This function checks for if the provided character
-     * is the Special Character or not
-     * @param c parameter object to be checked
-     * @return Returns true if the provided character is a special character
-     */
-    boolean isSpecialCharacter(char c) {
-        switch (c) {
-            case '#':
-            case '$':
-            case '%':
-            case '^':
-            case '&':
-            case '*':
-            case '!':
-            case '@':
-            case '?':
-                return true;
-            default:
-                return false;
-        }
     }
 }
