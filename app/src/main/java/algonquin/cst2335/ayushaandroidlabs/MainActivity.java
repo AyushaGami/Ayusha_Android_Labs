@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             cityName = binding.cityField.getText().toString();
             String stringURL = "https://api.openweathermap.org/data/2.5/weather?q="
                     + URLEncoder.encode(cityName)
-                    + "&appid=4c6f889d1262aa52817df7b6de2ce1b9&units=metric";
+                    + "&appid=852eeab6dd34f3250f3bc3fb22f187f1Otytawa&units=metric";
 
             @SuppressLint({"DefaultLocale", "StringFormatMatches"})
             JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, stringURL, null,
